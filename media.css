@@ -1,0 +1,322 @@
+@media screen and (max-width: 576px) {
+  /* Header */
+  nav .logo img {
+    margin-left: 10px;
+    width: 60px;
+  }
+  nav .menus ul {
+    display: none;
+  }
+  .icon {
+    display: block;
+    position: relative;
+    top: 25px;
+    right: 40px;
+  }
+  .icon i {
+    font-size: 30px;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section .person img {
+    width: 350px;
+    margin-right: 90px;
+  }
+  .main-section .text {
+    position: relative;
+    bottom: 160px;
+    margin-left: 70px;
+  }
+  .main-section .text p {
+    width: 350px;
+  }
+  .main-section .text h1 {
+    width: 350px;
+  }
+  /* Hero-section */
+
+  .hero-section .greybg {
+    display: none;
+  }
+  .hero-section .cards {
+    position: relative;
+    bottom: 170px;
+    right: 130px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-section .cards .card {
+    margin-right: 10px;
+    width: 190px;
+  }
+
+  /* section-2 */
+  .sec-2 .number {
+    position: relative;
+    bottom: 160px;
+    width: 130px;
+  }
+  .sec-2 .wrapper {
+    position: relative;
+    right: 490px;
+    bottom: 170px;
+    display: grid;
+    gap: 10px 10px;
+    grid-auto-rows: 60px;
+    grid-auto-columns: 200px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+  }
+  .sec-2 .wrapper h2 {
+    margin-top: 5px;
+  }
+  .sec-2 .wrapper p {
+    margin-top: -1px;
+  }
+
+  /* Project-section */
+  .project-section .header {
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: -90px;
+  }
+  .project-section .view {
+    margin-right: 90px;
+  }
+  .project-section .projects {
+    display: grid;
+    gap: 100px 100px;
+    grid-auto-rows: 250px;
+    grid-auto-columns: 450px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+    position: relative;
+    right: 180px;
+  }
+  /* Contact-section */
+
+  .project-section .contact {
+    width: 450px;
+    position: relative;
+    right: 235px;
+  }
+  .contact div {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .project-menu ul {
+    position: relative;
+    right: 490px;
+  }
+  /* footer-section */
+
+  .footer .footer-logo {
+    margin: 0px 40px;
+  }
+  .footer .social {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  /* Header */
+  nav .logo img {
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  nav .menus ul {
+    width: 410px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 12px;
+  }
+  nav .menus ul li {
+    margin-right: 25px;
+  }
+  .main-section {
+    display: flex;
+  }
+  .main-section .person img {
+    width: 300px;
+    position: relative;
+    right: 100px;
+  }
+  .main-section .text {
+    position: relative;
+    bottom: 120px;
+    right: 120px;
+  }
+  .main-section .text p {
+    width: 350px;
+  }
+
+  /* Hero-section */
+  .hero-section .greybg {
+    width: 550px;
+    position: absolute;
+    top: 380px;
+    z-index: -2;
+  }
+  .hero-section .cards {
+    position: relative;
+    bottom: 140px;
+    right: 250px;
+    width: 850px;
+  }
+  .hero-section .cards .card {
+    width: 160px;
+    height: 200px;
+    margin-right: 30px;
+  }
+  /* section-2 */
+  .sec-2 .number {
+    position: relative;
+    bottom: 90px;
+    right: 50px;
+    width: 280px;
+  }
+  .sec-2 .wrapper {
+    position: relative;
+    right: 450px;
+    bottom: 120px;
+  }
+  /* Project-section */
+  .project-section .header {
+    margin-left: 30px;
+    position: relative;
+    bottom: 120px;
+  }
+  .project-section .view {
+    margin-right: 70px;
+  }
+  .project-section .projects {
+    display: grid;
+    gap: 100px 100px;
+    grid-auto-rows: 140px;
+    grid-auto-columns: 200px;
+    grid-template-areas:
+      "a b"
+      "c d";
+    position: relative;
+    right: 220px;
+    bottom: 140px;
+  }
+  .projects .project {
+    width: 280px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .project-section img {
+    width: 250px;
+    margin-right: 30px;
+  }
+
+  /* Contact-section */
+  .project-section .contact {
+    width: 600px;
+    position: relative;
+    right: 235px;
+    bottom: 140px;
+  }
+
+  .project-menu ul {
+    position: relative;
+    right: 390px;
+    bottom: 120px;
+  }
+  /* footer-section */
+  .footer {
+    display: flex;
+    width: auto;
+    background-color: #4d4d4d9f;
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
+    width: auto;
+  }
+  .footer .footer-logo {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  nav .logo img {
+    width: 120px;
+    margin-top: 30px;
+  }
+  nav .menus ul {
+    width: 550px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  .main-section .person img {
+    width: 550px;
+    position: relative;
+    right: 100px;
+  }
+  .main-section .text {
+    position: relative;
+    right: 120px;
+  }
+  .main-section .text p {
+    width: 350px;
+    font-size: 14px;
+  }
+  .hero-section .cards {
+    position: relative;
+    right: 250px;
+    width: 950px;
+  }
+  .hero-section .cards .card {
+    width: 360px;
+    height: 200px;
+    margin-right: 30px;
+  }
+  /* section-2 */
+  .sec-2 .number {
+    position: relative;
+    right: 50px;
+    width: 280px;
+  }
+  .sec-2 .wrapper {
+    position: relative;
+    right: 350px;
+
+  }
+  .project-section .projects{
+    position: relative;
+    right: 220px;
+  }
+  /* Contact-section */
+  .project-section .contact {
+    width: 800px;
+    position: relative;
+    right: 160px;
+    bottom: 20px;
+  }
+
+  .project-menu ul {
+    position: relative;
+    right: 300px;
+  }
+  /* footer-section */
+  .footer {
+    display: flex;
+    background-color: 4d4d4d9f;
+    height: 60px;
+    width: 980px;
+  }
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+/* header */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: none;
+}
+nav .logo img{
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+nav .menus ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Poppins';
+    margin-right: 90px;
+    margin-top: 20px;
+    font-size: 12px; 
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+}
+.main-section .person img{
+    width: 550px;
+    margin-left: 90px;
+}
+.main-section .text{
+    margin-right: 290px;
+    margin-top: 200px;
+    font-family: 'Poppins';
+}
+.main-section .text p{
+    font-size: 12px;
+}
+.main-section .text .red-text{
+    color: #ff0000;
+}
+.main-section .text .about{
+    margin-top: 18px;
+    background-color: #ff0000;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+/* Hero-section */
+
+.hero-section .greybg{
+    background-color: #4d4d4d63;
+    width: 750px;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+}
+.hero-section .cards{
+    display: flex;
+    margin-left: 250px;
+}
+.hero-section .cards .card{
+    margin-left: 12px;
+    width: 180px;
+    height: 200px;
+    padding: 10px 16px;
+    margin-top: 60px;
+    margin-right: 190px;
+}
+.cards .card img{
+    width: 35px;
+}
+.cards h3,p{
+    font-size: 12px;
+    margin: 10px 0px;
+    font-family: 'Poppins';
+}
+.cards .card-1, .card-3{
+    background-color: #4d4d4d6c;
+}
+.cards .red {
+    color: #ff0000;
+}
+.cards .card-2{
+    background-color: red;
+}
+
+/* Section-2 */
+.sec-2 .number{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 30px;
+    margin-right: 650px;
+}
+.sec-2 .number h1{
+    color: #ff0000;
+    font-size: 50px;
+}
+.sec-2 .wrapper{
+    display: grid;
+    gap: 10px 10px;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 200px;
+    grid-template-areas: "a b"
+                        "c d";
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: -120px;
+    margin-left: 620px;
+}
+.sec-2 .wrapper .item-1, .item-2, .item-3, .item-4{
+    background-color: #4d4d4d6c;
+}
+.sec-2 .wrapper h2{
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+/* Project-section */
+.project-section{
+    font-family: 'Poppins';
+}
+.project-section .header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.project-section .view{
+    background-color: #ff0000;
+    width: 90px;
+    height: 40px;
+    color: #fff;
+}
+.project-section img{
+    width: 350px;
+}
+.project-section .projects{
+    display: grid;
+    gap: 100px 100px;
+    grid-auto-rows: 250px;
+    grid-auto-columns: 450px;
+    grid-template-areas: "a b"
+                         "c d";
+margin-bottom: 120px;
+margin-left: 240px;
+margin-top: 40px;
+}
+.projects .project{
+    width: 400px;
+    background-color: #4d4d4d;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.projects .pro .text-red p{
+    color: #ff0000;
+}
+/* Contact-section */
+
+.project-section .contact{
+    width: 950px;
+    height: 250px;
+    background-color: #4d4d4d9f;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 248px;
+    align-items: center;
+}
+.contact div{
+    margin-left: 70px;
+}
+.contact .contact-btn{
+    margin-right: 70px;
+    width: 100px;
+    height: 40px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+}
+.project-menu ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+/* footer-section */
+.footer{
+    display: flex;
+    width: auto;
+    background-color: #4d4d4d9f;
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.footer .footer-logo img{
+    width: 80px;
+}
+.footer .footer-logo{
+    margin: 0px 248px;
+}
+.footer .social{
+    margin-left: 90px;
+}
+.footer .social i{
+    margin-right: 15px;
+}
