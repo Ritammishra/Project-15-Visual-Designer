@@ -9,7 +9,7 @@
 ![image](./Thumbnails/Thumbnail-2.png)
 ![image](./Thumbnails/Thumbnail-3.png)
 ![image](./Thumbnails/Thumbnail-4.png)
-
+[Live Preview](https://project-creativity-14.netlify.app/)
 <hr>
 
 ## Features
